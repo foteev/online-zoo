@@ -1,0 +1,68 @@
+.backstage {
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #FFFFFF;
+}
+.backstage::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 204px;
+    height: 613px;
+    background-image: url('../../assets/images/flowers.png');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    transform: translateY(-128px);
+}
+.backstage__container {
+    position: relative;
+    margin-top: 140px;
+    background-color: #ffffff78;
+    box-shadow: 15px 0px 15px 15px rgb(255 255 255 / 50%);
+    backdrop-filter: blur(1px);
+}
+.backstage__content {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: flex-start;
+}
+.backstage__image {
+    overflow: hidden;
+}
+.backstage__image__self {
+    object-fit: cover;
+}
+.backstage__article {
+    width: 100%;
+    max-width: 465px;
+}
+.backstage__h2 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #333B41;
+}
+.backstage__text {
+    margin-bottom: 54px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333B41;
+}
+.backstage__subtitle  {
+    margin-bottom: 34px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333B41;
+}
+.backstage__subtitle__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #333B41;
+}

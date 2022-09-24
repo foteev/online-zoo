@@ -1,0 +1,54 @@
+.banner {
+    background-image: url('../../assets/images/panda.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #283035;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: -80px;
+}
+.banner__container {
+    padding-top: 165px;
+    padding-bottom: 100px;
+    max-width: 500px;
+    margin-left: auto;
+}
+.banner__container::before {
+    content: '';
+    position: absolute;
+    width: 465px;
+    height: 465px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 50%;
+    transform: translate(-73px, -73px);
+}
+
+.banner__h2 {
+    position: relative;
+    margin-bottom: 61px;
+    font-weight: 700;
+    font-size: 106.496px;
+    line-height: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.banner__h2-orange {
+    color: #FFEE2E;
+}
+.banner__button {
+    display: block;
+    max-width: 298px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 16px 0;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

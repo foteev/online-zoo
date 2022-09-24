@@ -1,0 +1,10 @@
+@import '../../assets/styles/header.css';
+@import '../../assets/styles/banner.css';
+@import '../../assets/styles/description.css';
+@import '../../assets/styles/backstage.css';
+@import '../../assets/styles/pets.css';
+@import '../../assets/styles/fonts.css';
+
+body {
+    font-family: Roboto;
+}
