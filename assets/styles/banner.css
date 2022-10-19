@@ -6,15 +6,18 @@
     background-color: #283035;
     padding-left: 30px;
     padding-right: 30px;
-    margin-top: -80px;
+    margin-top: -160px;
+
 }
 .banner__container {
     padding-top: 165px;
     padding-bottom: 100px;
+}
+.banner__content {
     max-width: 500px;
     margin-left: auto;
 }
-.banner__container::before {
+.banner__content::before {
     content: '';
     position: absolute;
     width: 465px;
@@ -51,4 +54,170 @@
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+.banner__button:hover {
+    background: #E47209;
+}
+.banner__button:active {
+    background: #4B9200;
+}
+
+@media all and (min-width:1000px) and (max-width: 1590px)  {
+    .banner {
+        margin-top: -70px;
+        height: 584px;
+    }
+
+    .banner__content {
+        max-width: 367px;
+        margin-left: auto;
+        margin-right: 65px;
+    }
+    .banner__content::before {
+        content: '';
+        position: absolute;
+        width: 367px;
+        height: 367px;
+        transform: translate(-53px, -53px);
+    }
+    
+    .banner__h2 {
+        position: relative;
+        margin-top: -50px;
+        margin-bottom: 40px;
+        font-weight: 700;
+        font-size: 85px;
+        line-height: 75%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .banner__h2-orange {
+        color: #FFEE2E;
+    }
+}
+
+@media all and (min-width:640px) and (max-width: 999px) {
+
+    .banner {
+        padding-top: 37px;
+        margin-top: -40px;
+        height: 350px;
+        width: 580px;
+    }
+
+    .banner__content {
+        width: 337px;
+        margin-left: auto;
+        margin-right: -11px;
+    }
+    .banner__content::before {
+        content: '';
+        position: absolute;
+        width: 237px;
+        height: 237px;
+        transform: translate(23px, -38px);
+    }
+    
+    .banner__h2 {
+        position: relative;
+        margin-top: -75px;
+        /* margin-right: 20px; */
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 54px;
+        line-height: 75%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .banner__h2-orange {
+        color: #FFEE2E;
+    }
+    .banner__button {
+        /* display:; */
+        position: absolute;
+        margin-left: -300px;
+        margin-top: -55px;
+        max-width: 298px;
+        width: 100%;
+        /* margin-right: 103px; */
+        /* padding: 16px 0; */
+        margin-bottom: 10px;
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        border-radius: 25px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+}
+
+@media all and (min-width:320px) and (max-width: 639px){
+
+    .banner {
+        padding-top: 37px;
+        margin-top: -0px;
+        height: 230px;
+        width: 260px;
+        background-size: 130%;
+        margin-bottom: -45px;
+    }
+
+    .banner__content {
+        margin-top: 5px;
+        width: 90px;
+        /* margin-top: 40px; */
+        /* margin-left: auto; */
+        margin-right: 55px;
+    }
+    .banner__content::before {
+        content: '';
+        position: absolute;
+        width: 119px;
+        height: 119px;
+        transform: translate(0px, -150px);
+        /* transform: scale(0.8) */
+    }
+    
+    .banner__h2 {
+        position: absolute;
+        margin-top: -130px;
+        /* margin-left: -90px; */
+        /* margin-right: 0px; */
+        /* margin-bottom: 20px; */
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 75%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .banner__h2-orange {
+        color: #FFEE2E;
+    }
+    .banner__button {
+        /* display:; */
+        position: absolute;
+        margin-left: -155px;
+        margin-top: 35px;
+        max-width: 298px;
+        width: 100%;
+        /* margin-right: 103px; */
+        /* padding: 16px 0; */
+        /* margin-bottom: 10px; */
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        border-radius: 25px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        z-index: 2;
+    }
+
 }
